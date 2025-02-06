@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brewed Awakening</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <!-- Navbar -->
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="img">
+                <span class="shop-name">Brewed Awakening</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Hero Section -->
+        <div class="hero">
+            <h1>Welcome to Brewed Awakening</h1>
+            <p>Your perfect cup of coffee awaits!</p>
+            <a href="#menu" class="btn">Explore Our Menu</a>
+        </div>
+    </header>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+            <!-- Coffee Items -->
+            <div class="menu-card">
+                <img src="images/espresso.jpg" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>A strong, concentrated coffee made by forcing hot water through finely-ground coffee beans.</p>
+                <p class="price">$3.50</p>
+            </div>
+            <div class="menu-card">
+                <img src="images/latte.jpg" alt="Latte">
+                <h3>Latte</h3>
+                <p>Espresso with steamed milk and a small amount of foam.</p>
+                <p class="price">$4.50</p>
+            </div>
+            <div class="menu-card">
+                <img src="images/cappuccino.jpg" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>Espresso with equal parts steamed milk and foam.</p>
+                <p class="price">$4.00</p>
+            </div>
+
+            <!-- Breakfast Items -->
+            <div class="menu-card">
+                <img src="images/sandwich.jpg" alt="Breakfast Sandwich">
+                <h3>Breakfast Sandwich</h3>
+                <p>A hearty sandwich with egg, cheese, and your choice of bacon or sausage.</p>
+                <p class="price">$6.00</p>
+            </div>
+            <div class="menu-card">
+                <img src="images/pancakes.jpg" alt="Pancakes">
+                <h3>Pancakes</h3>
+                <p>Fluffy pancakes served with maple syrup and butter.</p>
+                <p class="price">$5.50</p>
+            </div>
+            <div class="menu-card">
+                <img src="images/yogurt.jpg" alt="Yogurt Parfait">
+                <h3>Yogurt Parfait</h3>
+                <p>Layered yogurt with granola and fresh berries.</p>
+                <p class="price">$4.50</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>Brewed Awakening is a cozy coffee shop dedicated to serving the finest coffee and breakfast items. Our
+            mission is to provide a warm and welcoming environment where you can enjoy a perfect cup of coffee made with
+            love and care. Established in 2024, we take pride in sourcing our beans from sustainable farms and crafting
+            each drink with precision.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2025 Brewed Awakening. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
